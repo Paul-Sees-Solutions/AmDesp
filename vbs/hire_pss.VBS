@@ -1101,7 +1101,7 @@ End Sub
 Sub ShipHire(xmlfile)
         ' AmDesp'
         Dim python_exe, python_script, commence_wrapper, str_error
-        python_exe = "C:\AmDesp\dist\python.exe"
+        python_exe = "python"
         python_script = "C:\AmDesp\Main.py"
         commence_wrapper = "C:\Program Files\Vovin\Vovin.CmcLibNet\Vovin.CmcLibNet.dll"
         ExportItemDetailForm(xmlfile)
